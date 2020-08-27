@@ -12,19 +12,19 @@ public class Bai01 {
         //"123" --> 123
     }
 
-    private static int sum(String str){
+    private static int sum(String str) {
         int sum = 0;
         int number = 0;
 
-        for(int i=0;i<=str.length(); i++){
-            if(i < str.length() && Character.isDigit(str.charAt(i))){
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i))) {
                 number = 10 * number + str.charAt(i) - '0';
-            }else{
+            } else {
                 sum = sum + number;
                 number = 0;
             }
         }
 
-        return sum;
+        return sum + number;
     }
 }
