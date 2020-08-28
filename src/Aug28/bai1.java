@@ -10,7 +10,7 @@ public class bai1 {
         String[] str1 = str.split(" ");
         int max = 0;
         int index = 0 ;
-        for(int i = 0;i < str1.length(); i++) {
+        for(int i = 0;i < str1.length; i++) {
             int b = str1[i].length();
             if(b>max){
                 max = b ;
