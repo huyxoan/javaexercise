@@ -11,12 +11,25 @@ public class bai4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap mot chuoi bat ky : ");
         String str = sc.nextLine();
-        char kytu;
-        System.out.print("Cac ky tu trong chuoi la : ");
-        for (int i = 0; i < str.length(); i++) {
-            kytu = str.charAt(i);
 
-            System.out.print(kytu);
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char kytu = str.charAt(i);
+            boolean flag = true;
+
+            for (int j = i + 1; j < str.length(); j++) {
+                if (str.charAt(j) == kytu) {
+                    flag = false;
+                    break;
+                }
+            }
+
+            if (flag) {
+                count++;
+            }
         }
+
+        System.out.println("So luong ky tu phan biet la " + count);
     }
 }
