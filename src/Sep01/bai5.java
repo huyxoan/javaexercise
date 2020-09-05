@@ -1,11 +1,11 @@
 package Sep01;
-/*
+
 import java.util.Scanner;
 
-public class bai6 {
-    public static int main(String[] args) {
+public class bai5 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap so nguyen n : ");
+        System.out.println("NHap so nguyen n : ");
         int n = sc.nextInt();
         int a = 1;
         int b = 1;
@@ -18,7 +18,4 @@ public class bai6 {
         }
         System.out.println("Ket qua la : " + temp);
     }
-
 }
-
- */

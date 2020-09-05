@@ -33,5 +33,3 @@ public class lamlai {
         return n == songhich(n);
     }
 }
-
-}
