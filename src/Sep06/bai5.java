@@ -1,4 +1,4 @@
-package SEP6;
+package Sep06;
 /***
  * . Nhập vào hai số a, b. Kiểm tra xem 2 số a, b có phải là 2 số nguyên tố cùng nhau hay không.
  */

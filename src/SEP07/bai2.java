@@ -1,4 +1,4 @@
-package SEP07;
+package Sep07;
 
 import java.util.Scanner;
 
