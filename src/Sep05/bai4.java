@@ -10,17 +10,23 @@ import java.util.Scanner;
 public class bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap mot chuoi bat ky : ");
+
+        System.out.print("Nhap mot chuoi bat ky : ");
         String str = sc.nextLine();
-        System.out.println("Nhap mot so bat ky : ");
-        StringBuffer sb = new StringBuffer();
+
+        System.out.print("Nhap mot so bat ky : ");
         int n = sc.nextInt();
+
+        StringBuffer sb = new StringBuffer();
+
         for(int i=0;i<str.length();i++){
             char kytu = str.charAt(i);
             for(int j=0;j<n;j++){
                 sb.append(kytu);
             }
         }
+
         System.out.println(sb);
+
     }
 }

@@ -7,10 +7,10 @@ public class lamlai {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap so nguyen : ");
         int n = sc.nextInt();
-        while ( !doixung(n)){
+        while (!doixung(n)) {
             n++;
         }
-        System.out.println("Ket qua la : " +n);
+        System.out.println("Ket qua la : " + n);
         /*
         for (int i = n; true; i++) {
             if (doixung(i)){
@@ -21,15 +21,17 @@ public class lamlai {
 
          */
     }
-    static int  songhich(int n ){
-        int a = 0 ;
-        while (n>0){
-            a = a*10 + n%10;
-            n /= 10 ;
+
+    static int songhich(int n) {
+        int a = 0;
+        while (n > 0) {
+            a = a*10 + n % 10;
+            n /= 10;
         }
-        return a ;
+        return a;
     }
-    static boolean doixung(int n){
+
+    static boolean doixung(int n) {
         return n == songhich(n);
     }
 }
