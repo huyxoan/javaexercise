@@ -21,7 +21,7 @@ public class bai3 {
         for(int i = 0 ;i<str.length();i++) {
             char kytu = str.charAt(i);
 
-            for (int j = 0; j < n; j++) {
+            for (int j = 1; j < n; j++) {
                 sb.append(kytu);
             }
         }
