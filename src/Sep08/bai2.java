@@ -12,10 +12,10 @@ public class bai2 {
         int n = sc.nextInt();
         System.out.println(isExist(n));
     }
-    static boolean isExist(int a ){
-        double k = Math.log( a )/ Math.log(2.0);
-        if(k != (int)k) return false ;
-           return true ;
-        }
+
+    static boolean isExist(int a) {
+        double k = Math.log(a) / Math.log(2.0);
+        return k != (int) k;
     }
+}
 

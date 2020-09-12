@@ -14,11 +14,11 @@ public class bai3 {
     }
 
     static boolean KT(int n) {
+        int p = 9;
         while (n > 0) {
-            int p = n % 10;
-            int p1 = (n / 10) % 10;
+            if(n % 10 > p) return false;
+            p = n % 10;
             n /= 10;
-            if (p < p1) return false;
         }
         return true;
     }

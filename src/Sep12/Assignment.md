@@ -22,3 +22,5 @@ Hướng dẫn: vẽ đường chéo AC và BD, khi đó diện tích tứ giác
 - Tổng diện tích ACD + ACB
 
 Cái nào nhỏ hơn là đúng
+
+

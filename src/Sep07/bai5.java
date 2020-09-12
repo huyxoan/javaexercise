@@ -13,7 +13,7 @@ public class bai5 {
         String max = "" ;
         for(int i = 0 ; i < str.length();i++ ){
             int j = i ;
-            while ( j < str.length()-1  && str.charAt(j) == str.charAt(str.length()-j-1)){
+            while (j < str.length()-1  && str.charAt(j) == str.charAt(str.length()-j-1)){
                 j++ ;
             }
             if(j - i > max.length()){

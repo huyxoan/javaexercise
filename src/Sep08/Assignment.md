@@ -39,8 +39,15 @@ Ví dụ:
 
 4. Nhập số nguyên n, in ra số nguyên tố thứ n. 
 
-Dãy số nguyên tố là dãy số gồm các số nguyên tố tăng dần như sau: 2 3 5 7 11 13 17 19
+Dãy số nguyên tố là dãy số gồm các số nguyên tố tăng dần như sau: 
+
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 
 Ví dụ, n = 4 in ra 7 vì 7 là số thứ 4 trong dãy trên
+
+4 --> 7
+6 --> 13
+10 --> 29
+20 --> 71
 
 5. Nhập số nguyên n, tính tổng của tất cả các số nhỏ hơn hoặc bằng n

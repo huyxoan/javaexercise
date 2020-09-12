@@ -8,17 +8,24 @@ import java.util.Scanner;
 public class bai5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap a : ");
+        System.out.print("Nhap a : ");
         int a = sc.nextInt();
-        System.out.println("Nhap b : ");
+        System.out.print("Nhap b : ");
         int b = sc.nextInt();
-        int dem = 0;
-        for (int i = 1; i < a; i++) {
-            if (a % i == 0 && b % i == 0) {
-                dem++;
+
+        while (a > 0 && b > 0){
+            if(a > b){
+                a %= b;
             }
+            else{
+                b %= a;
+            }
+
+            System.out.println(a + "   " + b);
         }
-        if (dem > 1) {
+
+
+        if (a + b == 1) {
             System.out.println(" La hai so nguyen to cung nhau  ");
         } else {
             System.out.println("Khong phai la hai so nguyen to cung nhau");

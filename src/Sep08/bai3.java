@@ -16,6 +16,7 @@ public class bai3 {
             n /= 10;
         }
         if (KT(p)) {
+
             System.out.println("La so nguyen to ");
         } else {
             System.out.println("Khong la so nguyen to ");

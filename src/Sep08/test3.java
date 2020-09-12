@@ -17,7 +17,6 @@ public class test3 {
             }
         }
         System.out.println("Tai vi tri " + count);
-
     }
 
     static boolean isExist(int a) {
