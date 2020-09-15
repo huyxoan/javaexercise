@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Viết chương trình nhập vào một mảng số nguyên,
  * in ra giá trị lớn nhất có thể khi đem 2 giá trị liền kề nhân với nhau.
  */
-public class bai3 {
+public class bai3a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap so nguyen n : ");

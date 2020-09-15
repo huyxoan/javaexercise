@@ -5,7 +5,7 @@ import java.util.Scanner;
 /***
  *  Viết chương trình nhập vào một mảng số nguyên, kiểm tra mảng có phải có giá trị tăng dần không
  */
-public class bai1 {
+public class bai1a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap so nguyen n : ");
