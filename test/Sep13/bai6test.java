@@ -3,10 +3,11 @@ package Sep13;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class bai1test {
+public class bai6test {
     @Test
     public void test(){
-
-        Assertions.assertTrue(bai1.isPrime(7));
+        Assertions.assertEquals(bai6.isExist("abcdefghabc" ,"abc" ),2);
     }
 }
+
+

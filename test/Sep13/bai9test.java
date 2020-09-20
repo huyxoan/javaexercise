@@ -3,10 +3,10 @@ package Sep13;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class bai1test {
+public class bai9test {
     @Test
     public void test(){
-
-        Assertions.assertTrue(bai1.isPrime(7));
+        int[] arr = new int[]{1,2,3,4,5,6,7};
+        Assertions.assertEquals(bai9.maxchan(arr),6);
     }
 }
