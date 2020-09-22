@@ -32,6 +32,7 @@ public class lamlai {
     }
 
     static boolean doixung(int n) {
+
         return n == songhich(n);
     }
 }

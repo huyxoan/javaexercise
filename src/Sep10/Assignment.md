@@ -16,4 +16,6 @@ Ví dụ nhập vào 1, 2, -3, -4, 3, 4, -1 2 -3 thì in ra 8 vì 8 = 3 + 4 -1 +
 
 5. Viết chương trình nhập vào một mảng số nguyên, in ra giá trị lớn nhất có thể khi cộng liên tiếp nhiều phần tử mà giá trị đó phải là số nguyên tố
 
-Ví dụ nhập mảng 2, 3, 4, 5, 6, 1 thì in ra 19 vì 19 là số nguyên tố và 19 = 3 + 4 + 5 + 6 + 1
+Ví dụ nhập mảng 2, 3, 4, 5, 6, 1 thì in ra 19 vì 19 là số nguyên tố và 19 = 3 + 4 + 5 
+ 
+  1 2 3 -2 

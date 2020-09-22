@@ -1,15 +1,11 @@
 package Sep14;
+/***
+ * Chuyển một số la mã về số nguyên
+ */
 
 import java.util.Scanner;
 
 public class bai7 {
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap vao mot so nguyen nho hon 4000 : ");
-        int n = sc.nextInt();
-        System.out.println("Gia tri cua so la ma la : " + toRoman(n));
-    }
-
     public static String toRoman(int i){
         int hangdonvi = i%10;
         int hangchuc = (i%100)/10;

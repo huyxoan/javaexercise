@@ -11,7 +11,7 @@ public class bai5 {
         System.out.print("Nhap mot so nguyen n : ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        int sum = 0;
+
         for (int i = 0; i < n; i++) {
             System.out.print("A[" + i + "] = ");
             arr[i] = sc.nextInt();
